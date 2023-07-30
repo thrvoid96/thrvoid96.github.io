@@ -5,6 +5,65 @@
     gap: 30px
 }
 
+.project-wrapper__textDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.project-wrapper__textDiv p {
+    margin: 0;
+    font-size: 1.25em; /* Default size, you can adjust this */
+    word-wrap: break-word;
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1920px) {
+    .project-wrapper__textDiv p {
+        font-size: 0.9em; /* Adjust the font size for viewports between 1201px and 1920px here */
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .project-wrapper__textDiv p {
+        font-size: 1em; /* Adjust the font size for viewports less than 1200px here */
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+    .project-wrapper__textDiv p {
+        font-size: 0.85em; /* Adjust the font size for viewports between 960px and 1199px here */
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 959px) {
+    .project-wrapper__textDiv p {
+        font-size: 1.25em; /* Adjust the font size for viewports between 900px and 959px here */
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .project-wrapper__textDiv p {
+        margin: -20px;
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+    .project-wrapper__textDiv p {
+        margin: -20px;
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .project-wrapper__textDiv p {
+        margin: -15px;
+        font-size: 0.5em;
+    }
+}
+
 .col-1 {
     grid-column-end: span 1
 }
