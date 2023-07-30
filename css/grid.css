@@ -43,24 +43,17 @@
     }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 600px) {
-    .project-wrapper__textDiv p {
-        margin: -20px;
-        font-size: 0.9em;
-    }
-}
-
 @media only screen and (min-width: 400px) and (max-width: 500px) {
     .project-wrapper__textDiv p {
         margin: -20px;
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 }
 
 @media only screen and (max-width: 400px) {
     .project-wrapper__textDiv p {
         margin: -15px;
-        font-size: 0.5em;
+        font-size: 0.8em;
     }
 }
 
